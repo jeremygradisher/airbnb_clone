@@ -4,8 +4,7 @@
     <title>Vacation Rentals, Homes, Experiences &amp; Places - Aerbnb</title>
     <meta property="og:title" content="Vacation Rentals, Homes, Experiences &amp; Places - Airbnb">
 
-    <%# google_api_key = Rails.application.credentials.google[:api_key] %>
-    <% google_api_key = 'AIzaSyCSW6qCZs2dC6WrcJHS4GhZJBUVCQAKjeM' %>
+    <% google_api_key = Rails.application.credentials.google[:api_key] %>
     
     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{google_api_key}&libraries=places" %>
 
